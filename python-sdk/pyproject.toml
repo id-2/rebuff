@@ -18,7 +18,7 @@ langchain-openai = "^0.0.3"
 tiktoken = "^0.5.2"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.12.1"
+black = ">=23.12.1,<25.0.0"
 mypy = "^1.8.0"
 dunamai = "^1.19.0"
 pytest = "^7.4.4"
